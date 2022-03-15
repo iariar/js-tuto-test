@@ -1,0 +1,47 @@
+body
+{
+	background-color: thistle;
+	min-width: 400px;
+}
+
+input
+{
+	width : 100%;
+	background-color: lightcyan;
+	height: 30px;
+	width: 500px;
+	padding: 10px;
+	/* border-style:initial; */
+	border : 1px solid green;
+}
+
+button
+{
+	font-style: italic;
+	background-color: green;
+	color: white;
+	display: block;
+	/* height: 40px;
+	width: 100px; */
+	padding: 10px 20px;
+	border : none;
+	font-weight: bold;
+	/* padding-bottom: 10px; */
+}
+
+ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+
+li
+{
+	margin-top: 5;
+	margin-bottom: 5;
+}
+
+a
+{
+	color: green;
+}
