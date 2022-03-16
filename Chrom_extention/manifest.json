@@ -5,6 +5,9 @@
 	"action":{
 		"default_popup": "index.html",
 		"default_icon": "../blackjack/1136919.jpg"
-	}
-
+	},
+	"content_scripts": [{
+		"matches": ["http://*/*", "https://*/*", "file://*"], 
+		"js": ["plug_fun.js", "chrome_script.js"]
+	}]
 }

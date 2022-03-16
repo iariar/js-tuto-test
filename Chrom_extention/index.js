@@ -3,6 +3,7 @@ let my_input = [];
 const message = document.getElementById("input");
 list = document.getElementById("list");
 let list_adresses = ["some", "bull", "shit"];
+let tab_link = document.getElementById("save_curr_tab");
 
 // messa.addEventListener("")
 
@@ -17,6 +18,16 @@ inputBtn.addEventListener("click", function()
 	localStorage.setItem("strin", message.value);
 	list.innerHTML += "<li><a target='_blank' href=\"https://www.google.com/\">" + message.value + "</a></li>";
 	message.value = "";
+})
+
+let tab = [];
+
+tab_link.addEventListener("dblclick", function()
+{
+	chrom.tabs.query({active :true, currentWindow :true}, function(tab)
+	{
+		console.log(tab[0].url);
+	})
 })
 
 // localStorage.setItem("something", "value of something");
