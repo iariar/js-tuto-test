@@ -82,11 +82,64 @@ a:hover
 {
 	text-align: center;
 	background-color: var(--plum);
+	padding: 3rem;
 	/* width: 50%;
 	height: 30%; */
+	border-radius: 10px;
+	border-color: wheat;
 }
 
-/* section
+#contact p:last-child
 {
+	margin-top: 3rem;
+}
 
+
+
+ /*this part was for styling the list of liks as a paragraph <<<<<<*/
+/* #info p
+{
+	background-color: var(--black);
+	text-align: center;
+	color: white;
 } */
+
+/* #info
+{
+	background-color: var(--dkblue);
+	padding: 10px;
+	border-radius: 10px;
+	font-family: var(--mono);
+	font-size: 80%;
+	border : 1px solid var(--plum);
+}
+
+#info a
+{
+	margin: 6%;
+	/* border : 1px solid red; */
+	/* color: var(--white);
+	font-style: normal;
+	font-size: 15px;
+	text-decoration: none;
+} */
+
+/* #info h1
+{
+	text-align: center;
+}
+
+#info h1 a
+{
+	font-family: var(--sans);
+	font-size: large;
+}
+
+#info a:hover
+{
+	color: var(--magenta);
+}  */
+
+/*end of paragraph styling >>>>>>>>>>*/
+
+
