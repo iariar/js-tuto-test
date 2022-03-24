@@ -1,0 +1,40 @@
+#main_title
+{
+	font-family: Dancing Script;
+	text-align: center;
+	font-size: 3em;
+}
+
+h2
+{
+	font-family: kalam;
+}
+
+h2 span
+{
+	font-family: bold;
+}
+
+.first p
+{
+	/* display: flex; */
+	/* float: right; */
+	/* background-color: cornflowerblue; */
+}
+
+.image img
+{
+	width: 30em;
+}
+
+div
+{
+	align-items: center;
+	border: 3px solid #aaa;
+	/* float: left; */
+	display: inline-block;
+	height: 50em;
+	width: 20em;
+	/* display: flex; */
+	justify-content: center;
+}
