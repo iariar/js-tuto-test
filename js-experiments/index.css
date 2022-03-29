@@ -1,0 +1,170 @@
+/* .summ
+{
+	background-color: black;
+	color: white;
+	text-align: end;
+	border-radius: 0;
+	width: 560px;
+	height: 75px; */
+	/* padding: 50px 500px; */
+	/* margin: 0;
+	padding: 0; */
+	/* border-width: 0; */
+	/* font-size: 50px;
+} */
+
+/* div
+{
+	display: flex; */
+	/* word-break: break-all; */
+/* } */
+
+/* .summ::selection
+{
+	border-radius: 0;
+} */
+
+/* div:last-child
+{
+	background-color: orange;
+} */
+
+/* button
+{
+	border: 2px solid black;
+	background-color: grey;
+	padding: 30px 62px;
+	margin: 0;
+	font-size: 20px;
+}
+
+button:hover
+{
+	background-color: lightslategrey;
+}
+
+div :last-child
+{
+	background-color: orange;
+}
+
+div :last-child:hover
+{
+	background-color: lightsalmon;
+} */
+
+/* .small_butt
+{
+	width: 125;
+	height: 50; 
+
+} */
+
+/* .first .c
+{
+	margin: 0;
+	padding: 30px 130px;
+	font-size: 20px;
+	border: 2px solid black;
+}
+
+.zero
+{
+	padding: 30px 200px;
+	margin: 0;
+}
+
+#all
+{
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 23em;
+	border: 2px solid blue;
+} */
+
+/* End of my implementation */
+
+* {
+	box-sizing: border-box;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+}
+
+.all
+{
+	width: 400px;
+	background-color: black;
+	color: white;
+}
+
+.summ
+{
+	/* background-color: black; */
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: right;
+	padding: 20px 
+}
+
+.calc-butt
+{
+	background-color: #d8d9db;
+	color: black;
+	height: 100px;
+	width: 24.5%;
+	border: none;
+	border-radius: 0;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.calc-butt:hover
+{
+	background-color: #ebebeb;
+}
+
+.calc-butt:active
+{
+	background-color: #bbbcbb;
+}
+
+.calc-butt:last-child
+{
+	background-color: #df974c;
+	color: white;
+}
+
+.calc-butt:last-child:hover
+{
+	background-color: #dfb07e;
+}
+
+.calc-butt:last-child:active
+{
+	background-color: #cf8b43;
+}
+
+.double
+{
+	width: 49.3%;
+}
+
+.triple
+{
+	width: 74.5%;
+}
+
+.row
+{
+	display: flex;
+	align-content: stretch;
+	justify-content: space-between;
+	margin-bottom: 0.5%;
+}
+
+
+
